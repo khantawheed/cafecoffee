@@ -39,11 +39,6 @@ const Navbar = () => {
                         <span className='absolute inset-x-0 bottom-0 h-0.5 bg-black transform scale-x-0 origin-left transition-transform group-hover:scale-x-100'></span>
                     </Link>
                     
-                    <Link to="products" spy={true} duration={500} smooth={true} className='group relative inline-block Cursor-pointer hover:text-orange-300'>
-                        Products
-                        <span className='absolute inset-x-0 bottom-0 h-0.5 bg-black transform scale-x-0 origin-left transition-transform group-hover:scale-x-100'></span>
-                    </Link>
-                    
                     <Link to="reviews" spy={true} duration={500} smooth={true} className='group relative inline-block Cursor-pointer hover:text-orange-300'>
                         Reviews
                         <span className='absolute inset-x-0 bottom-0 h-0.5 bg-black transform scale-x-0 origin-left transition-transform group-hover:scale-x-100'></span>
@@ -74,11 +69,6 @@ const Navbar = () => {
                     
                     <Link to="about" spy={true} duration={500} smooth={true} className='group relative inline-block Cursor-pointer hover:text-orange-300'>
                         About us
-                        <span className='absolute inset-x-0 bottom-0 h-0.5 bg-black transform scale-x-0 origin-left transition-transform group-hover:scale-x-100'></span>
-                    </Link>
-                    
-                    <Link to="products" spy={true} duration={500} smooth={true} className='group relative inline-block Cursor-pointer hover:text-orange-300'>
-                        Products
                         <span className='absolute inset-x-0 bottom-0 h-0.5 bg-black transform scale-x-0 origin-left transition-transform group-hover:scale-x-100'></span>
                     </Link>
                     
